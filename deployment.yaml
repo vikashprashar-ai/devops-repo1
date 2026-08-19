@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: us-central1-docker.pkg.dev/devsecops-gitops-poc/payment-apps/hello-cloudbuild-app:latest
+          image: us-central1-docker.pkg.dev/devsecops-gitops-poc/payment-apps/hello-cloudbuild-app:7267a9b
           ports:
             - containerPort: 8080
 ---
